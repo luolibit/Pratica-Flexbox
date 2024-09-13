@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-image: url(fundo.png);
+    background-size: 100%;
+}
+
+div img{
+    width: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+
+.navbar ul{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.navbar li{
+    padding: 5px 10px;
+    list-style: none;
+    
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+#artigos{
+    width: 85%;
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+#artigos article{
+    width: 600px;
+    height: 350px;
+    padding: 3%;
+    border: 2px solid white;
+    margin: 30px;
+    text-align: center;
+}
+
+.art p {
+    margin-top: 15px;;
+    font-size: 13px;
+}
+
+.bo{
+    background-color: black;
+    margin: 2rem auto;
+    margin-top: 50px;
+    padding: 10px;
+    width: 900px;
+    height: 600px;
+}
+ 
+.titulo{
+    color: #FD7D54;
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 40px;
+}
+
+div h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+div h2{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.art {
+    align-items: center;
+}
+
+.art img{
+    display: flex;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.traco {
+    height: 7px;
+    width: 1%;
+    margin-top: 50px;
+    padding: 0 40px 0 40px;
+}
+
+.art a{
+    color: #41C3F6;
+    font-weight: 900;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.pe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    margin-top: 60px;
+}
